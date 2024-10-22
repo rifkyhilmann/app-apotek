@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string('username');
             $table->string('kode_obat');
             $table->string('nama_obat');
+            $table->string('jumlah_obat');
             $table->string('harga');
         });
     }

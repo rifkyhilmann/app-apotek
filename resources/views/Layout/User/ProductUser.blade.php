@@ -30,7 +30,7 @@
                                 <input type="number" name="jumlah_obat" class="w-16 border text-center">
                             </td>
                             <td class="px-4 py-2">
-                                <button class="h-10 w-20 bg-green-400 text-white">
+                                <button class="h-8 w-16 bg-green-400 text-white rounded">
                                         Beli
                                 </button>
                             </td>

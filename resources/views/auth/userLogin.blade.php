@@ -14,8 +14,8 @@
     </style>
 </head>
 <body>
-    <div class="flex items-center justify-center h-screen w-full bg-gray-500">
-        <div class="w-96 min-h-96 h-max bg-white  shadow-xl flex flex-col items-center">
+    <div class="flex items-center justify-center h-screen w-full bg-gray-300 ">
+        <div class="w-96 min-h-96 h-max bg-white  shadow-xl flex flex-col items-center rounded">
             <div class="mt-7 h-24 w-24 border border-1 border-blue-400 flex items-center justify-center rounded-full">
                 <img src="{{ asset('icons/user.png') }}" alt="Icon User" class="h-16 w-16">
             </div>
@@ -26,7 +26,7 @@
                 <input type="text" name="password" class="w-9/12 bg-gray-100 border-1 text-sm h-10 indent-2 border-gray-200 border focus:outline-blue-400" placeholder="Masukan Password" >
                 <button class="w-9/12 rounded h-10 bg-blue-400 mt-4 text-white font-bold hover:bg-blue-300">Login</button>
             </form>
-            <div class="mb-5 w-9/12 h-8 flex items-center justify-end text-sm text-blue-400">
+            <div class="mb-5 w-9/12 h-8 flex items-center justify-end text-xs text-blue-400">
                 <a href="{{ route('admin.login') }}">Sign In Admin?</a>
             </div>
             <div class="w-full h-10 bg-gray-300 mt-12 flex items-center justify-center gap-1">

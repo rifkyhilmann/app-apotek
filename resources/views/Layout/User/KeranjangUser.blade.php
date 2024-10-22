@@ -29,7 +29,7 @@
                         <td class="px-4 py-2 flex gap-1" >
                             <form action="{{ route('user.DeleteKeranjang', $data->id) }}" method="post">
                                 @csrf 
-                                <button class="h-10 w-14 bg-red-600 text-white flex items-center justify-center rounded">Delete</button>
+                                <button class="h-8 w-16 bg-red-600 text-sm text-white flex items-center justify-center rounded">Delete</button>
                             </form>
                         </td>
                     </tr>
@@ -37,9 +37,9 @@
                 </tbody>
             </table>
 
-            <form action="{{ route('user.productCheckout') }}" method="post" class="h-10 w-full  mt-4 flex justify-end items-center">
+            <form action="{{ route('user.productCheckout') }}" method="post" class="h-10 w-full  mt-4 flex justify-end items-center ">
                 @csrf
-                <button class="w-28 h-full bg-blue-400 text-white">Checkout</button>
+                <button class="w-28 h-full bg-blue-400 text-white rounded">Checkout</button>
             </form>
 
         </div>
